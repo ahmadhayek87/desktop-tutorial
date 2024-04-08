@@ -1,0 +1,6 @@
+@TestSecurityReport_HostAddress = http://localhost:5298
+
+GET {{TestSecurityReport_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
