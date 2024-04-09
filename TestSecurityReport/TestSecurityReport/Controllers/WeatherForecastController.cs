@@ -29,5 +29,10 @@ namespace TestSecurityReport.Controllers
 			})
 			.ToArray();
 		}
+		[HttpGet(Name = "GetWeather")]
+		public string GetPass()
+		{
+			return "P@123";
+		}
 	}
 }
