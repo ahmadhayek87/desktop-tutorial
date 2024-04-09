@@ -23,3 +23,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//"DefaultConnection": "Data Source=.\\SQLEXPRESS2019;Initial Catalog=MyDbName;User ID=sa;Password=MyPass"
